@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --color-gold-light: #fef08a;
+  --color-gold-default: #eab308;
+  --color-gold-dark: #a16207;
+}
+
+@layer base {
+  body {
+    @apply bg-black text-white antialiased overflow-hidden;
+  }
+}
