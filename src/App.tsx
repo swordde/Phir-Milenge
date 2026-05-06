@@ -17,7 +17,7 @@ interface Particle {
   opacity: number;
 }
 
-function GoldenParticle({ particle }: { particle: Particle; key?: any }) {
+function GoldenParticle({ particle }: { particle: Particle }) {
   return (
     <motion.div
       initial={{ y: -20, opacity: 0 }}
